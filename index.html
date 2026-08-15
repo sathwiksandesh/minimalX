@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="MinimalX — AI-powered automation, analytics, and collaboration in one productivity platform." />
+  <title>MinimalX - Future of Productivity</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-animation" id="bgAnimation" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <nav id="navbar" aria-label="Primary">
+    <a href="#home" data-section="home">Home</a>
+    <a href="#features" data-section="features">Features</a>
+    <a href="#pricing" data-section="pricing">Pricing</a>
+    <a href="#about" data-section="about">About</a>
+    <a href="#contact" data-section="contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h1>Welcome to MinimalX</h1>
+    <p class="subtitle">The future of productivity is here. Experience AI-powered automation, intuitive design, and seamless collaboration in one revolutionary platform.</p>
+    <div class="btns">
+      <a href="#features" class="btn btn-primary">Explore Features</a>
+      <a href="#contact" class="btn btn-secondary">Start Free Trial</a>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="section-header fade-in">
+      <h2>Powerful Features</h2>
+      <p>Discover the tools that will transform how you work, create, and collaborate with cutting-edge technology at your fingertips.</p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card fade-in" tabindex="0">
+        <span class="feature-tip" role="tooltip">Cuts busywork automatically, no setup required</span>
+        <div class="feature-icon">🤖</div>
+        <h3>AI-Powered Automation</h3>
+        <p>Intelligent workflows that adapt to your habits, automate repetitive tasks, and boost productivity by up to 300%.</p>
+      </div>
+
+      <div class="feature-card fade-in" tabindex="0">
+        <span class="feature-tip" role="tooltip">Dashboards update live as your team works</span>
+        <div class="feature-icon">📊</div>
+        <h3>Advanced Analytics</h3>
+        <p>Real-time insights and detailed reports help you make data-driven decisions with beautiful, interactive dashboards.</p>
+      </div>
+
+      <div class="feature-card fade-in" tabindex="0">
+        <span class="feature-tip" role="tooltip">Pick up on any device right where you left off</span>
+        <div class="feature-icon">🔄</div>
+        <h3>Cross-Platform Sync</h3>
+        <p>Seamless synchronization across all devices with real-time collaboration and cloud-based storage solutions.</p>
+      </div>
+
+      <div class="feature-card fade-in" tabindex="0">
+        <span class="feature-tip" role="tooltip">SOC 2 & GDPR ready out of the box</span>
+        <div class="feature-icon">🛡️</div>
+        <h3>Enterprise Security</h3>
+        <p>Bank-grade encryption, advanced authentication, and compliance with global security standards keep your data safe.</p>
+      </div>
+
+      <div class="feature-card fade-in" tabindex="0">
+        <span class="feature-tip" role="tooltip">Sub-second response, even at scale</span>
+        <div class="feature-icon">⚡</div>
+        <h3>Lightning Fast</h3>
+        <p>Optimized performance with sub-second loading times and real-time updates powered by modern infrastructure.</p>
+      </div>
+
+      <div class="feature-card fade-in" tabindex="0">
+        <span class="feature-tip" role="tooltip">Themes and layouts that feel like yours</span>
+        <div class="feature-icon">🎨</div>
+        <h3>Customizable Interface</h3>
+        <p>Personalize your workspace with themes, layouts, and widgets that match your workflow and aesthetic preferences.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="section-header fade-in">
+      <h2>Simple Pricing</h2>
+      <p>Choose the perfect plan for your needs. No hidden fees, no complex tiers - just transparent pricing that scales with you.</p>
+    </div>
+
+    <div class="pricing-grid">
+      <div class="pricing-card fade-in">
+        <h3>Starter</h3>
+        <div class="price">$9<span>/month</span></div>
+        <ul class="pricing-features">
+          <li>Up to 5 projects</li>
+          <li>Basic AI automation</li>
+          <li>Standard support</li>
+          <li>5GB cloud storage</li>
+          <li>Mobile app access</li>
+        </ul>
+        <a href="#contact" class="btn btn-secondary" style="width: 100%;">Get Started</a>
+      </div>
+
+      <div class="pricing-card featured fade-in">
+        <div class="pricing-badge">Most Popular</div>
+        <h3>Pro</h3>
+        <div class="price">$29<span>/month</span></div>
+        <ul class="pricing-features">
+          <li>Unlimited projects</li>
+          <li>Advanced AI features</li>
+          <li>Priority support</li>
+          <li>100GB cloud storage</li>
+          <li>Team collaboration</li>
+          <li>Advanced analytics</li>
+          <li>Custom integrations</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary" style="width: 100%;">Start Pro Trial</a>
+      </div>
+
+      <div class="pricing-card fade-in">
+        <h3>Enterprise</h3>
+        <div class="price">$99<span>/month</span></div>
+        <ul class="pricing-features">
+          <li>Unlimited everything</li>
+          <li>Custom AI training</li>
+          <li>24/7 dedicated support</li>
+          <li>Unlimited storage</li>
+          <li>Advanced security</li>
+          <li>On-premise deployment</li>
+          <li>Custom development</li>
+        </ul>
+        <a href="#contact" class="btn btn-secondary" style="width: 100%;">Contact Sales</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-header fade-in">
+      <h2>About MinimalX</h2>
+      <p>We're revolutionizing productivity with innovative technology and human-centered design.</p>
+    </div>
+
+    <div class="about-content">
+      <div class="about-text fade-in">
+        <h3>Our Mission</h3>
+        <p>At MinimalX, we believe technology should amplify human potential, not complicate it. Since 2020, we've been crafting tools that combine powerful functionality with elegant simplicity.</p>
+        <p>Our team of world-class designers, developers, and AI researchers work tirelessly to create experiences that feel magical yet familiar, powerful yet approachable.</p>
+        <p>Join over 100,000 professionals who trust MinimalX to streamline their workflows and unlock their creative potential.</p>
+      </div>
+
+      <div class="stats fade-in">
+        <div class="stat">
+          <span class="stat-number" data-count="100" data-suffix="K+">0</span>
+          <span class="stat-label">Active Users</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="99.9" data-suffix="%">0</span>
+          <span class="stat-label">Uptime</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="50" data-suffix="+">0</span>
+          <span class="stat-label">Integrations</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="4.9" data-suffix="★">0</span>
+          <span class="stat-label">User Rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-header fade-in">
+      <h2>Get In Touch</h2>
+      <p>Ready to transform your productivity? Let's start a conversation about how MinimalX can work for you.</p>
+    </div>
+
+    <div class="contact-content">
+      <form class="contact-form fade-in" id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+          <span class="form-error">Please enter your name.</span>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+          <span class="form-error">Please enter a valid email address.</span>
+        </div>
+
+        <div class="form-group">
+          <label for="company">Company (Optional)</label>
+          <input type="text" id="company" name="company" autocomplete="organization">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us about your project or ask any questions..." required></textarea>
+          <span class="form-error">Please enter a message.</span>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%;">
+          <span class="btn-label">Send Message</span>
+        </button>
+        <p class="form-success" id="formSuccess" role="status" aria-live="polite">✅ Thank you! Your message has been sent.</p>
+      </form>
+
+      <div class="contact-links">
+        <a href="mailto:hello@minimalx.com" class="contact-link fade-in">
+          <span class="contact-icon">📧</span>
+          <div>Email Us</div>
+          <small>hello@minimalx.com</small>
+        </a>
+
+        <a href="#" class="contact-link fade-in">
+          <span class="contact-icon">💬</span>
+          <div>Live Chat</div>
+          <small>Available 24/7</small>
+        </a>
+
+        <a href="#" class="contact-link fade-in">
+          <span class="contact-icon">🎮</span>
+          <div>Discord</div>
+          <small>Join our community</small>
+        </a>
+
+        <a href="#" class="contact-link fade-in">
+          <span class="contact-icon">📱</span>
+          <div>Call Us</div>
+          <small>+1 (555) 123-4567</small>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+      <p>&copy; 2025 MinimalX. Crafted with ❤️ by Siddhantam Sathwik Sandesh</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
