@@ -265,8 +265,7 @@ GitHub:
 https://github.com/sathwiksandesh
 
 ## 📄 License
-
-This project is available for educational and portfolio purposes.
+Licensed under the MIT License.
 
 ---
 
